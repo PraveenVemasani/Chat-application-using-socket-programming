@@ -34,8 +34,10 @@ In the case of client-side programming, the client will first wait for the serve
 
 **Establish a connection**
 - The very first step is to establish a socket connection. A socket connection implies that the two machines have information about each other’s network location (IP Address) and TCP port.
+  
 **Communication**
 - In order to communicate over a socket connection, streams are used for both input and output the data. After establishing a connection and sending the requests, you need to close the connection.
+  
 **Closing the connection**
 - The socket connection is closed explicitly once the message to the server is sent.
 
@@ -45,6 +47,7 @@ Basically, the server will instantiate its object and wait for the client reques
 
 **Communication**
 - getOutputStream() method is used to send the output through the socket.
+  
 **Close the Connection**
 - It is important to close the connection by closing the socket as well as input/output streams once everything is done.
   
