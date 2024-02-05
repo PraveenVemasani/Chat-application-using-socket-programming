@@ -6,6 +6,9 @@ In this project, one user sends a message to the other user and the other user r
 To implement this application, you will need to use socket programming to create a server that listens for incoming connections and a client that connects to the server. The server and client can then exchange messages using the send and receive functions of the socket.
 There are many variations of the client-server chat system, and the specific implementation will depend on the requirements and constraints of the application. However, the basic principles of communication between the client and server remain the same.
 
+## Chat Application 
+<img width="519" alt="image" src="https://github.com/PraveenVemasani/Chat-application-using-socket-programming/assets/107190143/7006fa40-e2a1-426d-b642-7633352e80da">
+
 
 
 ## Socket Programming
@@ -44,6 +47,7 @@ Basically, the server will instantiate its object and wait for the client reques
 - getOutputStream() method is used to send the output through the socket.
 **Close the Connection**
 - It is important to close the connection by closing the socket as well as input/output streams once everything is done.
-
-## Chat Application 
+  
 ## Flow Diagram
+<img width="549" alt="image" src="https://github.com/PraveenVemasani/Chat-application-using-socket-programming/assets/107190143/fe42a44d-c30e-471b-8919-6c055d70b440">
+
